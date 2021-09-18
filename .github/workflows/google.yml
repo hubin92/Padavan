@@ -28,6 +28,8 @@ jobs:
         include:
           - build_variant: "mt7621"
             targets: "RM2100"
+          - build_variant: "mt7621-usb"
+            targets: "WR1200JS NEWIFI3"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
